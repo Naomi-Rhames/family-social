@@ -1,3 +1,14 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -26,6 +37,10 @@
 
 .App-link {
   color: #61dafb;
+}
+body {
+  text-align: center;
+  font-family: sans-serif;
 }
 
 @keyframes App-logo-spin {
