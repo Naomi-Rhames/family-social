@@ -15,21 +15,21 @@ function Auth(){
 
     <label>
         Email:
-        <input type="email" name="email"/><br/>
+        <input type="email" name="email" placeholder='Enter Email'/><br/>
     </label><br/>
 
     <label>
         Username:
-        <input type="text" name="username" /><br/>
+        <input type="text" name="username" placeholder="Create Username" /><br/>
     </label><br/>
     <label>
         Bio
-        <textarea type="text" name="name"/><br/>
+        <textarea type="text" name="name" placeholder="Enter something about yourself!"/><br/>
     </label><br/>
 
     <label>
         Password:
-        <input type="password" name="password" /><br/>
+        <input type="password" name="password" placeholder="Create Password" /><br/>
     </label><br/>
 
   </form>
