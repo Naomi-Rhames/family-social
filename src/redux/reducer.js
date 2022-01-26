@@ -19,3 +19,12 @@ const initialState = {
     setEvents: initialEvent,
     user: iniatialUser
 }
+
+export function reducer(state=initialState, action){
+    switch(action){
+        
+        
+    default:
+        return{ ...state }
+    }
+}
