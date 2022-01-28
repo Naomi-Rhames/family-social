@@ -2,7 +2,7 @@
 // import { useHistory} from 'react-router'
 /// import { connect } from 'react'
 
-function Auth(){
+function Auth(props){
     const [signup, setSignup] = useState(false)
     const [ imageUrl, setImageUrl ] = useState("")
     const [username, setUsername] = useState("")
@@ -10,8 +10,14 @@ function Auth(){
     const [ bio, setBio] = useState("")
     const [ password, setPassword] = useState("")
 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    
+    }
+
+
     return <>
-  <form>
+  <form onSubmit={handleSubmit}>
   <label>
       Add Profile Picture:
       <input type="text" name="imageUrl" value={imageUrl} onChange={(e) => setImageUrl(e.target.value)}placeholder='Add Picture Here'/><br/>
