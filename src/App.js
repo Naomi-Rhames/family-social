@@ -3,7 +3,11 @@ import { Auth } from './components'
 
 function App() {
   return (
-  <div> <Auth/></div>
+    <>
+    <h1>Welcome to Family Social Web application</h1>
+      <div> <Auth/></div>
+    </>
+
   );
 }
 

@@ -7,5 +7,3 @@ const EventFeed = () => {
 
 export default EventFeed;
 
-//// 1.) Implement JWT
-//// 2.) 

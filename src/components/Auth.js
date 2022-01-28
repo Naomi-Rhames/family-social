@@ -1,13 +1,14 @@
-// import { useState } from 'react'
+ import { useState } from 'react'
 // import { useHistory} from 'react-router'
 /// import { connect } from 'react'
 
-
-
-
-
 function Auth(){
-    
+    const [signup, setSignup] = useState(false)
+    const [username, setUsername] = useState("")
+    const [email, setEmail ] = useState("")
+    const [ bio, setBio] = useState("")
+    const [ password, setPassword] = useState("")
+
     return <>
   <form>
   <label>
