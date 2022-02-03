@@ -1,6 +1,7 @@
  import { useState } from 'react'
+ import { subnmitSignup} from '../redux/actionCreators'
 // import { useHistory} from 'react-router'
-/// import { connect } from 'react'
+// import { connect } from 'react'
 
 function Auth(props){
     const [signup, setSignup] = useState(false)
