@@ -1,4 +1,4 @@
-const subnmitSignup = (user) => {
+ export const subnmitSignup = (user) => {
     return dispatch => fetch("http://127.0.0.1:3000/api/v1/users",
     {method: 'POST', // or 'PUT'
     headers: {
@@ -7,8 +7,7 @@ const subnmitSignup = (user) => {
   body: JSON.stringify(user),
 })
 .then(res =>handleUserResponse(res, dispatch))
-}
-
+ }
 
 function handleUserResponse(res, dispatch){
     if (res.ok) {
