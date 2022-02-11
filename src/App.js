@@ -1,5 +1,5 @@
  import './App.css';
- import { Auth, EventFeed } from './components'
+ import { Auth, EventFeed, Nav } from './components'
 // import { Auth, EventFeed} from './components'
 import { connect } from 'react-redux'
 // import { useEffect } from 'react'
@@ -23,5 +23,5 @@ function App(user) {
 }
 const mapStateToProps = (state) => ({user: state.user}) 
 
-  export default connect(mapStateToProps)(Auth);
+ export default connect(mapStateToProps)(App);
 

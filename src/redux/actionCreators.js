@@ -7,6 +7,7 @@
   body: JSON.stringify(user),
 })
 .then(res =>handleUserResponse(res, dispatch))
+
  }
 
 function handleUserResponse(res, dispatch){
@@ -20,5 +21,5 @@ function handleUserResponse(res, dispatch){
       res.json()
       .then(res => alert(res.errors))
     }
-    }
+ }
     
